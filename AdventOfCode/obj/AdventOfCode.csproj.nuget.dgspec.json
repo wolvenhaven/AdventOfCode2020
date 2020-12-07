@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Colin\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
+    "E:\\Repos\\AdventOfCode2020\\AdventOfCode\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Colin\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
+    "E:\\Repos\\AdventOfCode2020\\AdventOfCode\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Colin\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "E:\\Repos\\AdventOfCode2020\\AdventOfCode\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\Colin\\source\\repos\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectPath": "E:\\Repos\\AdventOfCode2020\\AdventOfCode\\AdventOfCode.csproj",
         "packagesPath": "C:\\Users\\Colin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Colin\\source\\repos\\AdventOfCode\\AdventOfCode\\obj\\",
+        "outputPath": "E:\\Repos\\AdventOfCode2020\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "TreeCollections": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

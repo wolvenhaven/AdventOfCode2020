@@ -1,7 +1,4 @@
 ﻿using AdventOfCode.Problems;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace AdventOfCode
 {
@@ -28,6 +25,9 @@ namespace AdventOfCode
 
             var customsForms = new CustomForms();
             customsForms.Execute(inputs.customsForms);
+
+            var luggage = new Luggage();
+            luggage.Execute(inputs.luggageRules);
         }
     }
 }
