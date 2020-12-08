@@ -28,6 +28,9 @@ namespace AdventOfCode
 
             var luggage = new Luggage();
             luggage.Execute(inputs.luggageRules);
+
+            var handheld = new Handheld();
+            handheld.Execute(inputs.handheldInstructions);
         }
     }
 }
