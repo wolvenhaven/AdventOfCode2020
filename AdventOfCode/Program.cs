@@ -31,6 +31,9 @@ namespace AdventOfCode
 
             var handheld = new Handheld();
             handheld.Execute(inputs.handheldInstructions);
+
+            var encoding = new Encoding();
+            encoding.Execute(inputs.encodings);
         }
     }
 }
